@@ -441,5 +441,35 @@ body {
 	font-size: 1.6rem;
 }
 
+/* Clases Adicionales */
+.transparent {
+	opacity: 0.9;
+}
+
+.btn-play {
+	width: 5rem;
+	height: 5rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+    background-color: #1ed760;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: translate(50%, -50%);
+    cursor: pointer;
+}
+
+.btn-play i{
+    font-size: 2.3rem;
+    padding-left: .5rem;
+}
+
+
 
 
